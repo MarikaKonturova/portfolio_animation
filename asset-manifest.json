@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio_animation/static/css/main.be269b19.css",
+    "main.js": "/portfolio_animation/static/js/main.7dbc4bf0.js",
+    "static/js/787.3646108b.chunk.js": "/portfolio_animation/static/js/787.3646108b.chunk.js",
+    "static/media/elena-joy.jpg": "/portfolio_animation/static/media/elena-joy.a47700687ffc3aef6649.jpg",
+    "static/media/travelly.jpg": "/portfolio_animation/static/media/travelly.f0be14e06affa287a515.jpg",
+    "static/media/github.svg": "/portfolio_animation/static/media/github.6fa0c3b0074947c5d8520f063c7daf3e.svg",
+    "static/media/twitter.svg": "/portfolio_animation/static/media/twitter.3fbda9a8b148edc169beee1ce7b7f6f4.svg",
+    "static/media/instagram.svg": "/portfolio_animation/static/media/instagram.d1955e8beea66237bf43ed0f34fc98b5.svg",
+    "static/media/linked-in.svg": "/portfolio_animation/static/media/linked-in.9bb0ccd4aa4135b942846da31f2ea4b7.svg",
+    "static/media/youtube.svg": "/portfolio_animation/static/media/youtube.ed5daf2894fd17c540259f867b1f8f6f.svg",
+    "index.html": "/portfolio_animation/index.html",
+    "static/media/splash.svg": "/portfolio_animation/static/media/splash.d46d4544f4f1f475ee1660496ea1aae2.svg",
+    "static/media/code.svg": "/portfolio_animation/static/media/code.c24ae482fbf703f75b12f4e603e1a6b7.svg",
+    "main.be269b19.css.map": "/portfolio_animation/static/css/main.be269b19.css.map",
+    "main.7dbc4bf0.js.map": "/portfolio_animation/static/js/main.7dbc4bf0.js.map",
+    "787.3646108b.chunk.js.map": "/portfolio_animation/static/js/787.3646108b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be269b19.css",
+    "static/js/main.7dbc4bf0.js"
+  ]
+}
