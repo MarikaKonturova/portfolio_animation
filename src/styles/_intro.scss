@@ -1,0 +1,86 @@
+.intro {
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  @include flex(space-between, center, row);
+  flex-wrap: wrap;
+  h2 {
+    font-size: 8rem;
+    padding-top: 2rem;
+    background: -webkit-linear-gradient(left, #38d39f, #38a4d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // to make the size of the text smaller
+    display: inline-block;
+  }
+  h3 {
+    font-size: 6rem;
+    padding: 2rem 0;
+  }
+  p {
+    padding-top: 2rem;
+    color: $gray-color;
+  }
+}
+
+.splash {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 100%;
+  z-index: -1;
+}
+.intro-social {
+  margin-top: 4rem;
+  a {
+    margin-right: 5rem;
+  }
+}
+.intro-text,
+.intro-images {
+  flex: 1 1 40rem;
+}
+
+#plant-left {
+  animation: plant 1.5s ease infinite alternate;
+}
+#plant-right {
+  animation: plant 1.5s ease infinite alternate 0.5s;
+}
+#me,
+#Vector_9 {
+  animation: me 2s linear infinite alternate;
+  // to make the bottom point steady
+  transform-origin: bottom;
+}
+#clock-arrow {
+  animation: clock 1.5s infinite linear;
+  //only transform-origin will not work because the clock arrow is small part of big svg
+  transform-box: fill-box;
+  transform-origin: bottom;
+}
+@keyframes me {
+  from {
+    transform: rotateZ(-5deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+
+@keyframes plant {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+@keyframes clock {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
